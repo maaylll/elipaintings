@@ -1,5 +1,5 @@
 body{
-	background-image: url('C:/Users/sinccl/OneDrive/Desktop/картины сквозь века/img/BACKGROUND.jpg');
+	background-image: url('/home/sincl/Рабочий стол/картины сквозь века/img/BACKGROUND.jpg');
 	width: 100%;
 	min-height: 100vh;
 	background-size: cover;
@@ -7,6 +7,10 @@ body{
 	background-position: center;
 }
 
+@font-face{
+	font-family: 'Ostrovsky';
+	src: url('/home/sincl/Рабочий стол/картины сквозь века/fonts/Ostrovsky-Bold_0.otf') format('opentype');
+}
 
 .arnold{
 	background-color: white;

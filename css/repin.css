@@ -1,11 +1,16 @@
 body{
-	background-image: url('C:/Users/sinccl/OneDrive/Desktop/Картины сквозь века/img/BACKGROUND3.jpg');
+	background-image: url('/home/sincl/Рабочий стол/картины сквозь века/img/BACKGROUND3.jpg');
 	width: 100%;
 	min-height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 	
 
+}
+
+@font-face{
+	font-family: 'Ostrovsky';
+	src: url('/home/sincl/Рабочий стол/картины сквозь века/fonts/Ostrovsky-Bold_0.otf') format('opentype');
 }
 
 .repin{
@@ -108,6 +113,26 @@ body{
 .paintings3{
 	margin-top: 60vh;
 
+}
+
+@media (min-width: 1490px){
+	
+	.paintings1{
+		position: relative;
+	margin-top: 50vh;
+}
+
+.paintings2{
+	position: relative;
+	margin-top: 35vh;
+}
+
+.paintings3{
+	position: relative;
+	margin-top: 65vh;
+	margin-bottom: 15vh;
+
+}
 }
 
 @media(max-width: 1024px){

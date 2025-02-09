@@ -36,6 +36,16 @@ header{
 	}
 }
 
+@font-face{
+	font-family: 'Ostrovsky';
+	src: url('/home/sincl/Рабочий стол/картины сквозь века/fonts/Ostrovsky-Bold_0.otf') format('opentype');
+}
+
+@font-face{
+	font-family: 'Ekaterina Velikaya Two';
+	src: url('/home/sincl/Рабочий стол/картины сквозь века/fonts/ekaterinavelikayatwo.ttf') format('truetype');
+}
+
 .name h1{
 	font-size: 3.5vw;
 	user-select: none;

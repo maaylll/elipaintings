@@ -1,5 +1,5 @@
 body{
-	background-image: url('img/BACKGROUND4.jpg');
+	background-image: url('/home/sincl/Рабочий стол/картины сквозь века/img/BACKGROUND4.jpg');
 	min-height: 100vh;
 	height: 100%;
 	background-size: cover;
@@ -11,6 +11,11 @@ body{
 	background-color: white;
 	height: auto; 
 	width: auto;
+}
+
+@font-face{
+	font-family: 'Ostrovsky';
+	src: url('/home/sincl/Рабочий стол/картины сквозь века/fonts/Ostrovsky-Bold_0.otf') format('opentype');
 }
 
 .iorest{
@@ -137,6 +142,30 @@ h2{
 }
 
 
+@media (min-width: 1490px){
+	.yalta{
+		position: relative;
+		margin-top: 80vh ;
+	}
+
+	.livad{
+		position: relative;
+		margin-top: 30vh;
+		margin-bottom: 30vh;
+	}
+
+	.petergof{
+		position: relative;
+		margin-top: 40vh;
+	}
+
+	.chaosik{
+	position: relative;
+	margin-top: 50vh;
+
+}
+
+}
 @media (max-width: 800px){
 
 	.yalta{
