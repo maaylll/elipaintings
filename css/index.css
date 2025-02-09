@@ -51,6 +51,7 @@ header{
 	user-select: none;
 	font-family: 'Ostrovsky';
 	font-style: bold;
+	font-weight: bold;
 	text-align: center;
 	animation: fadeIn 2s ease-in-out;
 	transition: transform 0.7s;
