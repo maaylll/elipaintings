@@ -1,5 +1,5 @@
 body{
-	background-image: url('/home/sincl/Рабочий стол/картины сквозь века/img/BACKGROUND4.jpg');
+	background-image: url('../img/BACKGROUND4.jpg');
 	min-height: 100vh;
 	height: 100%;
 	background-size: cover;
@@ -15,7 +15,7 @@ body{
 
 @font-face{
 	font-family: 'Ostrovsky';
-	src: url('/home/sincl/Рабочий стол/картины сквозь века/fonts/Ostrovsky-Bold_0.otf') format('opentype');
+	src: url('../fonts/Ostrovsky-Bold_0.otf') format('opentype');
 }
 
 .iorest{
