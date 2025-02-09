@@ -1,0 +1,243 @@
+body{
+	background-image: url('C:/Users/sinccl/OneDrive/Desktop/Картины сквозь века/img/BACKGROUND3.jpg');
+	width: 100%;
+	min-height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+
+}
+
+.repin{
+	background-color: white;
+	height: auto;
+	width: auto;
+}
+
+.repinimg{
+	width: 405px;
+	margin-left: -15px;
+	margin-top: -1px;
+}
+
+.just-A{
+	color: #B6A238;
+	font-size: 5vw;
+	line-height: 1;
+}
+
+.data{
+	font-size: 1.5vw;
+	font-family: "News Cycle";
+}
+
+.info{
+	font-family: News Cycle;
+	font-size: 1.6vw;
+}
+
+.biography h1{
+	font-size: 3.5vw;
+	margin-top: 30px;
+	font-family: Ostrovsky;
+}
+
+
+.paint1info h1{
+	color: white;
+	font-size: 3vw;
+	font-family: Ostrovsky;
+}
+
+.paint1info p{
+	color: white;
+	font-size: 1.6vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+
+
+.paint2img{
+	width: 520px;
+		margin-top: 20vh;
+	
+}
+
+.paint2info h1{
+	color: white;
+	font-size: 2.8vw;
+	font-family: Ostrovsky;
+}
+
+.paint2info p{
+	color: white;
+	font-size: 1.5vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.paint3img{
+	width: 450px;
+	
+}
+
+.paint3info h1{
+	color: white;
+	font-size: 3vw;
+	font-family: Ostrovsky;
+
+}
+
+.paint3info p{
+	color: white;
+	font-size: 1.6vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+	
+}
+
+.paintings1{
+	margin-top: 60vh;
+}
+
+.paintings2{
+	margin-top: 50vh;
+}
+
+.paintings3{
+	margin-top: 60vh;
+
+}
+
+@media(max-width: 1024px){
+	
+	.paintings1{
+	margin-top: 60vh;
+}
+
+.paintings2{
+	margin-top: 50vh;
+}
+
+.paintings3{
+	margin-top: 70vh;
+	margin-bottom: 20vh;
+}
+
+.paint3img{
+	width: 450px;
+	margin-top: 10vh;
+	
+}
+
+}
+
+@media(max-width: 768px){
+		.info{
+	font-family: News Cycle;
+	font-size: 2.2vw;
+}
+
+.paint1info p{
+	color: white;
+	font-size: 2vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.paint2info p{
+	color: white;
+	font-size: 2vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.paint3info p{
+	color: white;
+	font-size: 2vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+	.paintings1{
+	margin-top: 40vh;
+}
+
+.paintings2{
+	margin-top: 50vh;
+}
+
+.paintings3{
+	margin-top: 60vh;
+	margin-bottom: 20vh;
+}
+
+.paint3img{
+	width: 450px;
+	margin-top: 10vh;
+	
+}
+
+.paint2img{
+	width: 450px;
+	margin-top: 30vh;
+	
+}
+
+}
+
+@media(max-width: 475px){
+
+	.data{
+		font-size: 2vw;
+	}
+
+	.info{
+	font-family: News Cycle;
+	font-size: 2.4vw;
+}
+
+.paint1info p{
+	color: white;
+	font-size: 2.8vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.paint2info p{
+	color: white;
+	font-size: 2.8vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.paint3info p{
+	color: white;
+	font-size: 2.8vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+	.paintings1{
+	margin-top: 70vh;
+}
+
+.paintings2{
+	margin-top: 50vh;
+}
+
+.paintings3{
+	margin-top: 60vh;
+}
+	.paint2img{
+	margin-top: 0vh;
+}
+
+.paint1img{
+	margin-top: 10vh;
+}
+
+
+
+}

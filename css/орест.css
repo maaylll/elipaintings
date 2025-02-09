@@ -1,0 +1,139 @@
+body{
+	background-image: url('C:/Users/sinccl/OneDrive/Desktop/картины сквозь века/img/фон орест.jpg');
+	width: 100%;
+	min-height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.orest{
+	background-color: white;
+	height: auto; 
+	width: auto;
+}
+
+.iorest{
+	margin-left: -12px;
+}
+
+.bio{
+	font-family: News Cycle;
+	font-size: 1.5vw;
+}
+
+h2{
+	font-family: Ostrovsky;
+	font-size: 3.5vw;
+	margin-top: 30px;
+
+}
+
+.bio1{
+	font-family: News Cycle;
+	font-size: 1.5vw;
+	margin-top: 15px;
+	
+}
+
+.word_O{
+	color: #B6A238;
+	font-size: 5vw;
+	line-height: 1;
+}
+
+.o_lize{
+	color: white;
+	font-size: 1.5vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.o_lize h3{
+	color: white;
+	font-size: 3vw;
+	font-family: Ostrovsky;
+}
+
+.liza{
+	margin-top: 50vh;
+	
+}
+
+.o_vizuvie{
+	color: white;
+	font-size: 1.5vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.o_vizuvie h3{
+	color: white;
+	font-size: 3vw;
+	font-family: Ostrovsky;
+}
+
+.vizuviy{
+	margin-top: 50vh;
+}
+
+.o_sadovnike{
+	color: white;
+	font-size: 1.5vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.o_sadovnike h3{
+	color: white;
+	font-size: 3vw;
+	font-family: Ostrovsky;
+}
+
+.sadovnik{
+	margin-top: 50vh;
+}
+
+.sad_liza{
+	width: 420px;
+	margin-top: 20vh;
+}
+
+.sad_ovnik{
+	width: 400px;
+}
+
+.winter_vizuviy{
+	margin-top: 20vh;
+}
+
+@media(max-width: 475px){
+	p{
+		margin-bottom: 0.1rem;
+	}
+
+	.o_lize{
+		font-size: 2.2vw;
+	}
+
+	.o_vizuvie{
+		font-size: 2.2vw;
+	}
+
+	.o_sadovnike{
+		font-size: 2.2vw;
+	}
+
+	.liza{
+	margin-top: 30vh;
+	
+}
+
+.vizuviy{
+	margin-top: 20vh;
+}
+	.sadovnik{
+	margin-top: 10vh;
+}
+}
+

@@ -1,0 +1,160 @@
+body{
+	background-image: url('C:/Users/sinccl/OneDrive/Desktop/картины сквозь века/img/BACKGROUND.jpg');
+	width: 100%;
+	min-height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.arnold{
+	background-color: white;
+	height: auto; 
+	width: auto;
+}
+
+.arnoldimg{
+	width: 400px;
+	margin-left: -12px;
+}
+
+.just-A{
+	color: #B6A238;
+	font-size: 5vw;
+	line-height: 1;
+}
+
+.data{
+	font-family: News Cycle;
+	font-size: 1.5vw;
+}
+
+.biography p{
+	font-family: News Cycle;
+	font-size: 1.5vw;
+	margin-top: 15px;
+}
+
+.biography h1{
+	font-family: Ostrovsky;
+	font-size: 3.5vw;
+	margin-top: 30px;
+}
+
+.paint1img{
+	width: 400px;
+}
+
+.paint1info h1{
+	color: white;
+	font-size: 3vw;
+	font-family: Ostrovsky;
+}
+
+.paint1info p{
+	color: white;
+	font-size: 1.5vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.paint2img{
+	width: 600px;
+}
+
+.paint2info h1{
+	color: white;
+	font-size: 3vw;
+	font-family: Ostrovsky;
+}
+
+.paint2info p{
+	color: white;
+	font-size: 1.5vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.paint3img{
+	width: 400px;
+}
+
+.paint3info h1{
+	color: white;
+	font-size: 3vw;
+	font-family: Ostrovsky;
+}
+
+.paint3info p{
+	color: white;
+	font-size: 1.5vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.paintings1{
+	margin-top: 50vh;
+}
+
+.paintings2{
+	margin-top: 50vh;
+}
+
+.paintings3{
+	margin-top: 50vh;
+}
+
+@media(max-width: 768px){
+
+	.paint1info p{
+		font-size: 2vw;
+	}
+
+	.paint2info p{
+		font-size: 2vw;
+	}
+
+	.paint3info p{
+		font-size: 2vw;
+	}
+
+	.biography p{
+		font-size: 1.8vw;
+	}
+}
+
+@media(max-width: 475px){
+
+	.paint1info p{
+		font-size: 2.3vw;
+	}
+
+	.paint2info p{
+		font-size: 2.3vw;
+	}
+
+	.paint3info p{
+		font-size: 2.3vw;
+	}
+
+	.biography p{
+		font-size: 2.3vw;
+	}
+
+	.paintings1{
+	margin-top: 50vh;
+}
+
+.paintings2{
+	margin-top: 10vh;
+}
+
+.paintings3{
+	margin-top: 30vh;
+}
+
+.paint1img{
+	margin-top: 10vh;
+}
+}

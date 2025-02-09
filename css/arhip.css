@@ -1,0 +1,226 @@
+body{
+	background-image: url('C:/Users/sinccl/OneDrive/Desktop/картины сквозь века/img/BACKGROUND2.jpg');
+	width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 5%;
+}
+
+.arhip{
+    background-color: white;
+    width: auto;
+    height: auto;
+}
+
+.arhipimg{
+    width: 400px;
+    margin-left: -14px;
+}
+
+.just-A{
+    color: #B6A238;
+    font-size: 5vw;
+    line-height: 1;
+}
+
+.data{
+   font-family: News Cycle;
+    font-size: 1.5vw;
+
+}
+.bio1{
+    font-family: News Cycle;
+    font-size: 1.5vw;
+    margin-top: 15px;
+    
+}
+
+
+.biography h1{
+    font-size: 3.5vw;
+	margin-top: 30px;
+    font-family: Ostrovsky;
+}
+
+.paint1img{
+    width: 800px;
+}
+
+.paint1info h1{
+    color: white;
+    font-size: 3vw;
+    font-family: Ostrovsky;
+}
+
+.paint1info p{
+    color: white;
+	font-size: 1.5vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.paint2img{
+    width: 800px;
+}
+
+.paint2info h1{
+    color: white;
+    font-size: 2.8vw;
+    font-family: Ostrovsky;
+}
+
+.paint2info p{
+    color: white;
+    font-size: 1.5vw;
+    font-family: "News Cycle";
+    text-indent: 20px;
+}
+
+.paint3img{
+    width: 800px;
+}
+
+.paint3info h1{
+    color: white;
+    font-size: 3vw;
+    font-family: Ostrovsky;
+}
+
+.paint3info p{
+    color: white;
+    font-size: 1.5vw;
+    font-family: "News Cycle";
+    text-indent: 20px;
+}
+
+.paintings1{
+    margin-top: 50vh;
+}
+
+.paintings2{
+    margin-top: 50vh;
+}
+
+.paintings3{
+    margin-top: 50vh;
+}
+
+.paint2img{
+    margin-top: 20vh;
+}
+
+@media(max-width: 1024px){
+    .data{
+        font-size: 2vw;
+    }
+    .bio1{
+        font-size: 2vw;
+    }
+
+    .paintings1{
+    margin-top: 25vh;
+}
+
+.paintings2{
+    margin-top: 75vh;
+}
+
+.paintings3{
+    margin-top: 50vh;
+}
+
+.paint2img{
+    margin-top: 20vh;
+}
+
+.paint2img{
+    margin-top: 5vh;
+}
+
+body{
+    background-position: center 0%;
+}
+
+}
+
+@media(max-width: 768px){
+
+       .paintings1{
+    margin-top: 20vh;
+}
+    .paintings2{
+    margin-top: 40vh;
+}
+
+.paintings3{
+    margin-top: 60vh;
+}
+
+.paint1img{
+    margin-top: 20vh;
+}
+
+.paint1img{
+    margin-top: 5vh;
+}
+
+.paint2img{
+    margin-top: 10vh;
+}
+
+}
+
+@media(max-width: 475px){
+
+
+       .paintings1{
+        position: relative;
+    margin-top: 30vh;
+
+}
+    .paintings2{
+        position: relative;
+    margin-top: 50vh;
+}
+
+.paintings3{
+    
+    margin-top: 40vh;
+}
+
+.bottom{
+    position: relative;
+    margin-top: 30vh;
+}
+
+.paint1img{
+    margin-top: 20vh;
+}
+
+.paint1img{
+    margin-top: 5vh;
+}
+
+.paint2img{
+    margin-top: 10vh;
+}
+
+    .paint1info p{
+        font-size: 2.2vw;
+        margin-bottom: 0.1rem;
+    }
+
+     .paint2info p{
+        font-size: 2.2vw;
+        margin-bottom: 0.1rem;
+    }
+
+     .paint3info p{
+        font-size: 2.2vw;
+        margin-bottom: 0.1rem;
+    }
+
+
+
+}

@@ -1,0 +1,281 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	
+}
+html{
+	scroll-behavior: smooth;
+}
+
+header{
+	text-align: center;
+	border-bottom: 2px solid black;
+	padding-bottom: 10px;
+	justify-content: center;
+	align-items: center;
+	animation: fadeIn 3s ease-in-out;
+	transition: transform 0.6s;
+}
+
+.logo{
+	width: 5vw;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	user-select: none;
+	margin-top: 5px;
+}
+
+@keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+.name h1{
+	font-size: 3.5vw;
+	user-select: none;
+	font-family: 'Ostrovsky';
+	font-style: bold;
+	text-align: center;
+	animation: fadeIn 2s ease-in-out;
+	transition: transform 0.7s;
+}
+
+@keyframes fadeIn{
+	0%{
+		opacity: 0;
+		transform: scale(0.7);
+	}
+	100%{
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+.pictures img{
+	margin: 5px;
+	animation: fadeIn 2.5s ease-in-out;
+	transition: transform 0.8s;
+}
+
+.pictures img:hover{
+	transform: scale(0.9);
+	opacity: 0.90;
+}
+
+
+
+.one{
+	
+	border: 2px solid #B6A238;
+	box-shadow: 0px 1px 10px #B6A238;
+
+}
+
+.two{
+	
+	border: 2px solid #B6A238;
+	box-shadow: 0px 1px 10px #B6A238;
+}
+
+.three{
+	
+	border: 2px solid #B6A238;
+	box-shadow: 0px 1px 10px #B6A238;
+}
+
+.four{
+
+	border: 2px solid #B6A238;
+	box-shadow: 0px 1px 10px #B6A238;
+}
+
+
+.pictures{
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.image-container img{
+	width: 100%;
+	height: auto;
+}
+
+.allpic{
+	position: relative;
+	top: 6rem;
+}
+
+
+.but{
+	text-align: center;
+	margin-top: 30vh;
+	color: #B6A238;
+}
+
+.but button{
+
+	color: #B6A238;
+	padding: 2vw 4vw;
+	border: none;
+	border-radius: 15px;
+	cursor: pointer;
+	font-size: 2vw;
+	transition: background-color 0.8s;
+	font-family:News Cycle ;
+	box-shadow: 1px 3px 10px #B6A238;
+	font-weight: bold;
+	transition: 0.2s ease-in-out;
+	animation: fadeIn 3s ease-in-out;
+	transition: transform 0.8s;
+
+}
+
+.but button:hover{
+	background-color: lightgrey;
+	transform: scale(0.95);
+	transition: 0.2s ease-in-out
+}
+
+.but button:active{
+	transform: scale(0.95);
+}
+
+a:hover{
+	cursor: pointer;
+	text-decoration: none;
+	color: inherit;
+}
+
+.gold{
+	color: #B6A238;
+}
+
+.onas{
+	font-family: 'Ekaterina Velikaya Two';
+	color:#B6A238;
+	font-size: 5vw;
+}
+
+.aboutme{
+	text-align: center;
+	font-family: "News Cycle", serif;
+	border-radius: 300px;
+	box-shadow: 0px 1px 20px #B6A238;
+	margin-top: 30vh;
+}
+
+.aboutme p{
+	font-size: 1.7vw;
+}
+
+.allpainters a{
+	text-align: center;
+	user-select: none;
+	text-decoration: none;
+	color: black;
+	font-family: 'Ostrovsky';
+	font-style: bold;
+	font-size: 1.8vw;
+}
+
+.allpainters a:hover{
+	color: #B6A238;
+	cursor: pointer;
+	text-shadow:2px 2px 5px palegoldenrod;
+	opacity: 0.85;
+}
+
+.allpainters a img{
+	transition: transform 0.3s;
+}
+
+.allpainters a:hover img{
+	transform: scale(1.1);
+	transform: translateY(-10px);
+}
+
+.allpainters img{
+	width: 18vw;
+	height: auto;
+}
+
+.block3{
+	text-align: center;
+	justify-content: center;
+	margin-top: 40vh;
+	align-items: center;
+}
+
+.border{
+	box-shadow: 0px 1px 20px #B6A238;
+	border-radius: 200px;
+	
+}
+
+footer{
+	border-top: 2px solid silver;
+	text-align: center;
+	background-color: #252525;
+	color: white;
+	margin-bottom: -20px;
+}
+
+footer p{
+	font-size: 1.5vw;
+	font-family: Calibri;
+	margin-top: 20px;
+}
+
+.vk{
+	margin-top: 5vh;
+	width: 4vw;
+}
+
+@media(max-width:475px){
+
+	.allpainters img{
+	width: 15vw;
+	height: auto;
+}
+.border{
+	box-shadow: 0px 1px 20px #B6A238;
+	border-radius: 145px;
+	
+}
+.aboutme p{
+	font-size: 2vw;
+}
+
+.block3{
+	text-align: center;
+	justify-content: center;
+	margin-top: 20vh;
+	align-items: center;
+}
+
+.allpic{
+	position: relative;
+	top: 4rem;
+}
+}
+
+@media(max-width: 475px){
+	.but{
+		margin-top: 10vh;
+	}
+
+	.aboutme{
+		margin-top: 10vh;
+	}
+
+	.block3{
+		margin-top: 10vh;
+	}
+}

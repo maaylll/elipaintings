@@ -1,0 +1,250 @@
+body{
+	background-image: url('C:/Users/sinccl/OneDrive/Desktop/картины сквозь века/img/BACKGROUND4.jpg');
+	min-height: 100vh;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center 20%;
+}
+
+.orest{
+	background-color: white;
+	height: auto; 
+	width: auto;
+}
+
+.iorest{
+	margin-left: -12px;
+}
+
+.bio{
+	font-family: News Cycle;
+	font-size: 1.5vw;
+}
+
+h2{
+	font-family: Ostrovsky;
+	font-size: 3.5vw;
+	margin-top: 30px;
+
+}
+
+.yalta h3{
+	color: #133C4B;
+	font-size: 3vw;
+	font-family: Ostrovsky;
+}
+
+.bio1{
+	font-family: News Cycle;
+	font-size: 1.5vw;
+	margin-top: 15px;
+	
+}
+
+.word_O{
+	color: #B6A238;
+	font-size: 5vw;
+	line-height: 1;
+}
+
+.o_yalte{
+	color: black;
+	font-size: 1.5vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.o_yalte h3{
+	color: #133C4B;
+	font-size: 3vw;
+	font-family: Ostrovsky;
+}
+
+.yalta{
+		margin-top: 45vh ;
+	}
+
+.o_chaos{
+	color: white;
+	font-size: 1.5vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.o_chaos h3{
+	color: white;
+	font-size: 3vw;
+	font-family: Ostrovsky;
+}
+
+.chaosik{
+	
+	margin-top: 40vh;
+
+}
+
+.o_petre{
+	color: black;
+	font-size: 1.5vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.o_petre h3{
+	color: #133C4B;
+	font-size: 3vw;
+	font-family: Ostrovsky;
+}
+
+.petergof{
+	
+	margin-top: 15vh;
+
+}
+
+.ya_lta{
+	width: 480px;
+}
+
+.peter_gof{
+	width: 500px;
+}
+
+.chaos{
+	width: 420px;
+}
+
+
+.o_livade{
+	color: white;
+	font-size: 1.6vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.o_livade h3{
+	color: white;
+	font-size: 3vw;
+	font-family: Ostrovsky;
+}
+
+.livad{
+	
+	margin-top: 16vh;
+	margin-bottom: 20vh;
+	
+}
+
+
+@media (max-width: 800px){
+
+	.yalta{
+		margin-top: 75vh ;
+	}
+
+	.livad{
+		margin-top: 30vh;
+	}
+
+	.petergof{
+		margin-top: 30vh;
+	}
+
+	.o_yalte{
+	color: black;
+	font-size: 1.8vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.o_chaos{
+	color: white;
+	font-size: 1.8vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.o_petre{
+	color: black;
+	font-size: 1.8vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.o_livade{
+	color: white;
+	font-size: 1.8vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+}
+
+@media (max-width: 475px){
+
+	.yalta{
+		margin-top: 18vh;
+	}
+
+	.livad{
+		margin-top: 30vh;
+	}
+
+	.petergof{
+		margin-top: 0vh;
+	}
+
+
+.chaosik{
+	
+	margin-top: 20vh;
+
+}
+
+		.o_yalte{
+	color: black;
+	font-size: 3vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.o_chaos{
+	color: white;
+	font-size: 2.5vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.o_petre{
+	color: black;
+	font-size: 2.5vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.o_livade{
+	color: white;
+	font-size: 2.5vw;
+	font-family: "News Cycle";
+	text-indent: 20px;
+}
+
+.bio1{
+	font-family: News Cycle;
+	font-size: 1.9vw;
+	margin-top: 15px;
+	
+}
+
+.bio{
+	font-size: 2vw;
+}
+
+.bio1{
+	font-size: 2.5vw;
+}
+
+
+
+}
