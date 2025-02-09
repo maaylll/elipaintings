@@ -1,5 +1,5 @@
 body{
-	background-image: url('/home/sincl/Рабочий стол/картины сквозь века/img/фон орест.jpg');
+	background-image: url('../img/фон орест.jpg');
 	width: 100%;
 	min-height: 100vh;
 	background-size: cover;
@@ -9,7 +9,7 @@ body{
 
 @font-face{
 	font-family: 'Ostrovsky';
-	src: url('/home/sincl/Рабочий стол/картины сквозь века/fonts/Ostrovsky-Bold_0.otf') format('opentype');
+	src: url('../fonts/Ostrovsky-Bold_0.otf') format('opentype');
 }
 
 .orest{
