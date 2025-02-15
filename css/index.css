@@ -249,6 +249,11 @@ footer p{
 	width: 4vw;
 }
 
+.репин{
+ border-radius: 50px;
+}
+
+
 @media(max-width:475px){
 
 	.allpainters img{
